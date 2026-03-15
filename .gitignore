@@ -1,0 +1,17 @@
+# Environnements
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS index (gros fichiers binaires)
+faiss_index/
+*.faiss
+
+# MacOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
