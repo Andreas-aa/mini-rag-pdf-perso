@@ -23,7 +23,7 @@ def ask_question(question):
 
     vectorstore = load_vector_store()
 
-    docs_with_scores = vectorstore.similarity_search_with_score(question, k=3)
+    docs_with_scores = vectorstore.similarity_search_with_score(question, k=5)
 
     docs = [doc for doc, score in docs_with_scores]
 
